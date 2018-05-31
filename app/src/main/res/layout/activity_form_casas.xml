@@ -27,8 +27,8 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
-                android:text="Introdusca los datos de su casa"
-                android:textColor="blacc"
+                android:text="Introduzca los datos de su casa"
+
                 android:textSize="25dp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -73,10 +73,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="232dp"
                 android:layout_marginStart="153dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="12dp"
                 android:ems="10"
                 android:hint="Precio:"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.314"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_estado" />
 
@@ -86,10 +87,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="232dp"
                 android:layout_marginStart="153dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="12dp"
                 android:ems="10"
                 android:hint="Ciudad:"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.314"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_precio" />
 
@@ -99,10 +101,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="232dp"
                 android:layout_marginStart="153dp"
-                android:layout_marginTop="11dp"
+                android:layout_marginTop="16dp"
                 android:ems="10"
                 android:hint="Region o zona:"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.314"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_ciudad" />
 
@@ -112,10 +115,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="232dp"
                 android:layout_marginStart="153dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="12dp"
                 android:ems="10"
                 android:hint="Ubucacion:"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.314"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_Region" />
 
@@ -125,10 +129,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="232dp"
                 android:layout_marginStart="153dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="16dp"
                 android:ems="10"
                 android:hint="Direccion:"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.314"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_ubicacion" />
 
@@ -138,10 +143,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="232dp"
                 android:layout_marginStart="153dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="16dp"
                 android:ems="10"
                 android:hint="Descripcion:"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.314"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_direccion" />
 
@@ -151,10 +157,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="232dp"
                 android:layout_marginStart="153dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="16dp"
                 android:ems="10"
                 android:hint="Cantidad de cuartos :"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.314"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_Descripcion" />
 
@@ -164,10 +171,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="232dp"
                 android:layout_marginStart="153dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="16dp"
                 android:ems="10"
                 android:hint="Cantidad de baños:"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.314"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_cuartos" />
 
@@ -177,10 +185,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="232dp"
                 android:layout_marginStart="153dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="12dp"
                 android:ems="10"
                 android:hint="Cuenta con garage:"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.314"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_baño" />
 
@@ -190,10 +199,11 @@
                 android:layout_height="49dp"
                 android:layout_marginEnd="232dp"
                 android:layout_marginStart="153dp"
-                android:layout_marginTop="19dp"
+                android:layout_marginTop="12dp"
                 android:ems="10"
                 android:hint="Tamaño del terreno de su casa:"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.314"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_garje" />
 
@@ -203,29 +213,31 @@
                 android:layout_height="49dp"
                 android:layout_marginEnd="232dp"
                 android:layout_marginStart="153dp"
-                android:layout_marginTop="9dp"
+                android:layout_marginTop="4dp"
                 android:ems="10"
                 android:hint="Email:"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.314"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_superficie" />
 
-
-
-
-
-
-
-
-
+            <Button
+                android:id="@+id/btn_enviarcasa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="148dp"
+                android:layout_marginStart="148dp"
+                android:layout_marginTop="13dp"
+                android:text="Registrar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_correo" />
 
 
         </android.support.constraint.ConstraintLayout>
 
 
     </ScrollView>
-
-
 
 
 </android.support.constraint.ConstraintLayout>

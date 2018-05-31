@@ -1,5 +1,6 @@
 package com.example.hp.interfacegrafic;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -13,6 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -20,6 +22,8 @@ import java.io.File;
 
 public class LoadImage extends AppCompatActivity
 {
+    private Context btncasa;
+
     private final String CARPETA_RAIZ ="misImagenes/";
     private final String RUTA_IMAGEN =CARPETA_RAIZ+"misFotos";
     ImageView image;
@@ -31,6 +35,22 @@ public class LoadImage extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_load_image);
         image = (ImageView)this.findViewById(R.id.imageLoad);
+
+        btncasa = this;
+        loadComponents();
+
+    }
+
+    private void loadComponents() {
+        Button btnUser = (Button)this.findViewById(R.id.btn_regCasa); //En el id se coloca el boton que se va a usar
+        btnUser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent us = new Intent(btncasa, FormCasas.class); //Se señala el class al cual se va a enlazar
+                btncasa.startActivity(us);
+            }
+        });
+
     }
 
     public void onClick(View view)
